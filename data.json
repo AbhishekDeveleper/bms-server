@@ -1,0 +1,33 @@
+[
+  {
+    "bookTitle": "Harry Potter",
+    "bookAuthor": "leger",
+    "bookIsbn": 5,
+    "publishDate": "10/12/2024",
+    "bookCategory": "history"
+  },
+  {
+    "bookTitle": "Harry Potter",
+    "bookAuthor": "leger",
+    "bookIsbn": 100,
+    "publishDate": "10th december",
+    "bookCategory": "mythology"
+  },
+  {
+    "bookTitle": "Harry Potter",
+    "bookAuthor": "leger",
+    "bookIsbn": 1000,
+    "publishDate": "10/12/2024",
+    "bookCategory": "history"
+  },
+  {
+    "bookTitle": "updated book"
+  },
+  {
+    "bookTitle": "Legend updated",
+    "bookAuthor": "leger",
+    "bookIsbn": "490",
+    "publishDate": "10th december",
+    "bookCategory": "Action"
+  }
+]
