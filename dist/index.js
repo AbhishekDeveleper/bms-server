@@ -4,6 +4,7 @@ import rateLimit from "express-rate-limit";
 import AppError from "./controller/AppError.js";
 import globalErrorHandler from "./controller/errorController.js";
 import morgan from "morgan";
+import router from "./router/bmsroute.js";
 export const app = express();
 app.options("*", cors());
 const limiter = rateLimit({
@@ -25,7 +26,7 @@ app.use((req, res, next) => {
 app.get("/api/home", (req, res) => {
     res.send(`Welcome to home page at url ${req.originalUrl}`);
 });
-// app.use("/api/v1", router);
+app.use("/api/v1", router);
 app.use("*", (req, res, next) => {
     res.send(`The route with this url ${req.originalUrl} is not defined`);
     next();
